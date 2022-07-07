@@ -85,23 +85,25 @@ section {
 }
 
 .icon-top {
-  border: circle;
-  border-radius: 10px;
+  border-radius: 50%;
   position: fixed;
   height: 50px;
   width: 50px;
   bottom: 15px;
   right: 10px;
-  background-color: slateblue;
+  background-image: url(image/house-icon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: aliceblue;
+  /* color: aliceblue; */
   font-size: large;
   cursor: pointer;
 }
 
-/* .image {
+.image {
   position: fixed;
   height: 50px;
   width: 50px;
@@ -110,6 +112,7 @@ section {
   background-color: slateblue;
   border-radius: 20%;
 }
-.image:hover {
+
+/* .image:hover {
   size: larger;
 } */
