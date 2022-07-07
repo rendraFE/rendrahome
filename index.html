@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Komiku</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="home">
+      <div class="container">
+        <!-- navigation stat bar -->
+        <div class="navwrapper">
+          <ul class="navigation">
+            <li class="navlinks">
+              <a href="#home" class="links">HOME</a>
+            </li>
+            <li class="navlinks">
+              <a href="#about" class="links">ABOUT</a>
+            </li>
+            <li class="navlinks">
+              <a href="#contact" class="links">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <div class="contentwrappert">
+          <h1>Homepage</h1>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <div class="contentwrapper">
+          <h1>ABOUT</h1>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <div class="contentwrappers">
+          <h1>CONTACT</h1>
+        </div>
+      </div>
+    </section>
+    <div class="icon-top" onclick="ToIndex()">Home</div>
+    <script>
+      const ToIndex = () => {
+        return (location.href = "#home");
+      };
+    </script>
+  </body>
+</html>
